@@ -1,65 +1,75 @@
-# 🛍 Lenskart Order Analytics Dashboard | Power BI Project
+# Lenskart Order Analytics Dashboard using Power BI & Excel
 
-This Power BI project transforms unstructured order data into strategic insights for Lenskart — a leading D2C eyewear brand. From Excel chaos to clean visuals, this dashboard addresses revenue performance, customer sentiment, and payment behavior.
+## Project Overview
 
----
+This dashboard project explores customer order data from Lenskart to generate actionable insights around revenue, feedback, product performance, and payment success. It simulates a real-world analytics case for a D2C brand.
 
-## 📊 View Live Dashboard
+Using Power BI for dashboarding and Excel for data cleaning, this project demonstrates full-cycle BI development from raw data to insights.
 
-➡ [Click here to explore the interactive Power BI dashboard](https://app.powerbi.com/groups/me/reports/b409fa88-bfba-4c7b-a355-0d9525ba14bf/dd78254f7542a0dcbee3?experience=power-bi)
+## Objective
 
----
+To extract business-critical insights from structured and unstructured order data, including:
 
-## 📌 Problem Statement
+* Revenue performance across categories and cities
+* Customer sentiment analysis from feedback
+* Order trend analysis by month
+* Payment success and failure distribution
 
-Lenskart deals with thousands of customer orders monthly — with feedback, payment issues, and logistics challenges. This project helps visualize:
+## Tools & Technologies
 
-- Revenue breakdown by product category and city
-- Payment success/failure insights
-- Customer sentiment from feedback
-- Monthly order trends
+* **Microsoft Power BI** – Dashboard creation, KPIs, and data visualization
+* **Microsoft Excel** – Data cleaning and preprocessing
+* **DAX** – Used for sentiment tagging, AOV, total revenue, and feedback %
 
----
+## Dataset Summary
 
-## 🛠 Tools Used
+* `unstructured_order_data_lenskart.xlsx`: Raw file with inconsistent formatting
+* `lenskart_order_data_cleaned.xlsx`: Final cleaned dataset used for dashboard
+* 50 records across 10+ columns: City, Product Category, Quantity Sold, Price, Payment Status, Customer Feedback, etc.
 
-- Microsoft Power BI
-- Excel (data cleaning)
-- DAX (for KPIs & sentiment tagging)
+## Key Metrics & Calculations
 
----
+DAX was used to derive key metrics:
 
-## 📈 Key Business Insights
+* **Revenue** = Quantity Sold × Price
+* **AOV (Average Order Value)** = Total Revenue / Total Orders
+* **Feedback %** = % of customers who submitted feedback
+* **Sentiment Tagging** = Classified feedback as Positive, Negative, or No Feedback using text-based rules
 
-- 🛍 **Revenue Leaders:** Glasses & Sunglasses = 75%+ of total revenue
-- 💬 **Customer Voice:** 96% gave feedback — sentiment is 50% positive, 50% negative
-- 💳 **Payment Success:** 76% successful; 10% failed (needs UX improvement)
-- 🌐 **Top Cities:** Mumbai leads, followed by Delhi & Bangalore
-- 📈 **Order Trends:** High in Jan & May, dip in March — possibly seasonal
+## Dashboard (Power BI-Based)
 
----
+The dashboard was created in Power BI and includes the following elements:
 
-## 📂 Project Files
+* **KPI Cards**: Total Revenue, AOV, Total Orders, Feedback %
+* **Revenue by Product Category** (Bar Chart)
+* **Orders by Month** (Line Chart)
+* **Revenue by City** (Donut Chart)
+* **Feedback Sentiment Split** (Pie Chart)
+* **Payment Status Distribution** (Pie Chart)
+* **Filters** for City, Category, Payment Status, and Sentiment
 
-| File Name | Description |
-|-----------|-------------|
-| `Harshita_Lenskart_Dashboard.pbix` | Final dashboard (Power BI Desktop) |
-| `lenskart_order_data_cleaned.xlsx` | Cleaned dataset used in dashboard |
-| `unstructured_order_data_lenskart.xlsx` | Raw data provided initially |
-| `dashboard_screenshot.png` | Preview of final output |
+🔗 Live Dashboard: [View on Power BI Web](https://app.powerbi.com/groups/me/reports/b409fa88-bfba-4c7b-a355-0d9525ba14bf/dd78254f7542a0dcbee3?experience=power-bi)
 
----
+## Core Insights
 
-## 💡 What I Learned
+* 🛍 **Revenue Leaders:** Glasses & Sunglasses = 75%+ of total revenue
+* 💬 **Customer Voice:** 96% gave feedback — sentiment is 50% positive, 50% negative
+* 💳 **Payment Success:** 76% successful; 10% failed (needs UX improvement)
+* 🌐 **Top Cities:** Mumbai leads, followed by Delhi & Bangalore
+* 📈 **Order Trends:** High in Jan & May, dip in March — possibly seasonal
 
-- Designing business-focused dashboards with real KPIs
-- Using DAX to automate customer sentiment tagging
-- Creating insights from unstructured data
-- End-to-end ownership of a data project
+## Applications
 
----
+This dashboard can be used to:
 
-## 📧 Contact : harshita.work50@gmail.com
+* Identify high-performing product lines
+* Optimize customer feedback loops
+* Prioritize payment and delivery improvements
+* Present category-level strategy to internal stakeholders
 
-Feel free to connect: https://www.linkedin.com/in/harshita-gupta-383123256/
+## Author
 
+**Harshita Gupta**
+Aspiring Business Analytics
+Email: [harshita.work50@gmail.com](mailto:harshita.work50@gmail.com)
+LinkedIn: [https://www.linkedin.com/in/harshita-gupta-383123256/](https://www.linkedin.com/in/harshita-gupta-383123256/)
