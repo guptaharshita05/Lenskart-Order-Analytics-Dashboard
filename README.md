@@ -68,8 +68,7 @@ This dashboard can be used to:
 * Present category-level strategy to internal stakeholders
 
 ## Author
-
-**Harshita Gupta**
-Aspiring Business Analytics
-Email: [harshita.work50@gmail.com](mailto:harshita.work50@gmail.com)
-LinkedIn: [https://www.linkedin.com/in/harshita-gupta-383123256/]
+**Harshita Gupta**  
+Aspiring Business Analyst | SQL & Data-Driven Insights  
+Email: harshita.work50@gmail.com  
+LinkedIn: https://www.linkedin.com/in/harshita-gupta-383123256/
