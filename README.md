@@ -70,6 +70,9 @@ This dashboard can be used to:
 ## Author
 
 **Harshita Gupta**
+
 Aspiring Business Analytics
+
 Email: [harshita.work50@gmail.com](mailto:harshita.work50@gmail.com)
-LinkedIn: [https://www.linkedin.com/in/harshita-gupta-383123256/](https://www.linkedin.com/in/harshita-gupta-383123256/)
+
+LinkedIn: [https://www.linkedin.com/in/harshita-gupta-383123256/]
